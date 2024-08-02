@@ -63,7 +63,7 @@ bindsym $mod+t exec xrdb -merge /home/kasm-user/.Xresources && xterm -e "cd /hom
 
 bindsym $mod+b exec firefox
 
-bindsym $mod+Return exec sakura -t "Terminal"-x "sudo su -c 'fastfetch -l small && bash' kasm-user"
+bindsym $mod+Return exec sakura -t "Terminal" -x "sudo su -c 'fastfetch -l small && bash' kasm-user"
 #+++++++++++++++++++++++++++++++++
 
 # kill focused window

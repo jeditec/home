@@ -5,6 +5,12 @@
 # this file and re-run i3-config-wizard(1).
 #
 
+gaps horizontal 20 px
+
+#gaps vertical 2 px
+
+gaps inner 10 px
+
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!

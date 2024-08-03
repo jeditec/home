@@ -127,3 +127,4 @@ fi
 export HOME="/home/kasm-user"
 cd $HOME
 #++++++++++++++++++++++++++++++++++
+export PATH="$HOME/.local/bin:$PATH"

@@ -1,0 +1,10 @@
+.vnc
+.cache
+.kas*
+openbox
+pulse
+.dbus
+.local
+Desktop
+.Xauthority
+.feh*

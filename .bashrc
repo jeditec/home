@@ -122,16 +122,20 @@ if ! shopt -oq posix; then
 fi
 
 
-#+++++++++++++++++++++++++++++++++++
+# Add home directory as default
 
 export HOME="/home/kasm-user"
 cd $HOME
-#++++++++++++++++++++++++++++++++++
+
 export PATH="$HOME/.local/bin:$PATH"
+
+# Add fzf
 eval "$(fzf --bash)"
 source .config/fzf/key-bindings.bash
 
+# Add zoxide
 eval "$(zoxide init bash)"
 export PATH="$HOME/.local/bin:$PATH"
 
+# Set default editor for yazi
 export EDITOR=nano

@@ -57,7 +57,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 #+++++++++++++++++++++++++++++++++
-exec --no-startup-id feh --bg-center --image-bg "#282828" /home/kasm-user/.config/images/wallpaper.png
+exec --no-startup-id feh --bg-center --no-fehbg --image-bg "#282828" /home/kasm-user/.config/images/wallpaper.png
 
 bindsym $mod+t exec xrdb -merge /home/kasm-user/.Xresources && xterm -e "cd /home/kasm-user && /bin/bash" &
 

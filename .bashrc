@@ -128,3 +128,10 @@ export HOME="/home/kasm-user"
 cd $HOME
 #++++++++++++++++++++++++++++++++++
 export PATH="$HOME/.local/bin:$PATH"
+eval "$(fzf --bash)"
+source .config/fzf/key-bindings.bash
+
+eval "$(zoxide init bash)"
+export PATH="$HOME/.local/bin:$PATH"
+
+export EDITOR=nano

@@ -8,3 +8,8 @@ pulse
 Desktop
 .Xauthority
 .feh*
+.bash_history
+.lesshst
+.config/htop/htoprc
+.config/gpick/user_init.lua
+.config/glib-2.0/settings/keyfile

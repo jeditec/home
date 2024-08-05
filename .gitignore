@@ -13,3 +13,4 @@ Desktop
 .config/htop/htoprc
 .config/gpick/user_init.lua
 .config/glib-2.0/settings/keyfile
+.mozilla/firefox

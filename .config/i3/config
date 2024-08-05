@@ -228,3 +228,5 @@ bar {
 
 
     client.background       #242424
+
+for_window [class=".*"] title_format " > %title"

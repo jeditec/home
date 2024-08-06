@@ -131,6 +131,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Add fzf
 eval "$(fzf --bash)"
+cd 
 source .config/fzf/key-bindings.bash
 
 # Add zoxide
@@ -139,3 +140,4 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Set default editor for yazi
 export EDITOR=nano
+

@@ -59,6 +59,7 @@ tiling_drag modifier titlebar
 #+++++++++++++++++++++++++++++++++
 exec --no-startup-id feh --bg-center --no-fehbg --image-bg "#282828" /home/kasm-user/.config/images/wallpaper.png
 
+
 bindsym $mod+t exec xrdb -merge /home/kasm-user/.Xresources && xterm -e "cd /home/kasm-user && /bin/bash" &
 
 bindsym $mod+b exec firefox
@@ -129,16 +130,16 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1-Main"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws1 "1-Web"
+set $ws2 "2-Console"
+#set $ws3 "3"
+#set $ws4 "4"
+#set $ws5 "5"
+#set $ws6 "6"
+#set $ws7 "7"
+#set $ws8 "8"
+#set $ws9 "9"
+#set $ws10 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -223,10 +224,13 @@ bar {
     client.unfocused        #2e3440 #1f222d #888888 #1f222d
     client.focused_inactive #2e3440 #1f222d #888888 #1f222d
     client.placeholder      #2e3440 #1f222d #888888 #1f222d
-    client.urgent           #900000 #900000 #ffffff #900000
+    client.urgent           #BE6069 #BE6069 #ffffff #BE6069
 
 
 
     client.background       #242424
 
 for_window [class=".*"] title_format " > %title"
+
+assign [class="firefox"] → number "1-Web"
+assign [class="Sakura"] → number "2-Console"
